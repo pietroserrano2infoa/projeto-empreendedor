@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: br.com.senai.infoa.backend.projeto_empreendedor.ProjetoEmpreendedorApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.064 s -- in br.com.senai.infoa.backend.projeto_empreendedor.ProjetoEmpreendedorApplicationTests
