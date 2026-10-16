@@ -22,6 +22,10 @@ public class EmpreendedorService {
         return empreendedorRepository.findAll();
     }
 
+    public Empreendedor buscarPorId(Integer id) {
+        return empreendedorRepository.findById(id).get();
+    }
+    
     public EmpreendedorService(EmpreendedorRepository empreendedorRepository) {
         this.empreendedorRepository = empreendedorRepository;
     }
