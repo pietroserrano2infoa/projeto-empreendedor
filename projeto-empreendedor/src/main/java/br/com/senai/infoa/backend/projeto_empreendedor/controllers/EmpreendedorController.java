@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import br.com.senai.infoa.backend.projeto_empreendedor.models.Empreendedor;
 import br.com.senai.infoa.backend.projeto_empreendedor.services.EmpreendedorService;
 
+
 @RestController 
 @RequestMapping("/empreendedor")
 public class EmpreendedorController {
@@ -31,6 +32,7 @@ public class EmpreendedorController {
     }
     //o controller é responsável por receber as requisições do usuário e repassar para o service, que por sua vez repassa para o repository, que acessa o banco de dados.
     //ele usa o @RestController para indicar que é um controller e o @RequestMapping para indicar o caminho da requisição. O @GetMapping indica que é uma requisição do tipo GET.
+    //e use a sintaxe do @GetMapping para o Swagger conseguir executar o método
 }
 
 
